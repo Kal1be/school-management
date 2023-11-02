@@ -15,3 +15,6 @@
 #divid{
     border-top: 1px solid gainsboro;
 }
+.dropdown{
+    display:block !important;
+}

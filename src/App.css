@@ -7,6 +7,10 @@
     top: 0;
     background-color: white;
     width: 90%;
+   border-right: 2px solid gainsboro;
+   display: none;
+}
+#divid{
     display: none;
 }
 }
