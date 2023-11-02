@@ -1,0 +1,17 @@
+#myid ul li{
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    padding: 10px 10px;
+    transition: .2s linear;
+}
+#myid ul li:hover{
+   color: gray;
+   border-left: 1px solid gainsboro;
+}
+#myid ul{
+    margin-top: 20px;
+}
+#divid{
+    border-top: 1px solid gainsboro;
+}

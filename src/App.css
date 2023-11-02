@@ -1,0 +1,12 @@
+#myid{
+    border-right: 1px solid gainsboro;
+}
+@media(max-width:850px){
+#myid{
+    position:fixed;
+    top: 0;
+    background-color: white;
+    width: 90%;
+    display: none;
+}
+}
