@@ -6,7 +6,7 @@ import { faSearch,faBookReader, faProjectDiagram, faCodeBranch, faAmericanSignLa
 import {Link} from "react-router-dom"
 
 function Navbar() {
-  const [open,setOpen] =useState(false)
+  const [open,setOpen] =useState(true)
   const handleopen=()=>{
     setOpen(!open)
   }
@@ -43,86 +43,86 @@ function Navbar() {
     <div className='text-gray mb-20'>
       <ul className="px-3">
        <h3 className="font-bold">Documentation for:</h3>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faCode} className="text-blue-500"/>
-          <Link to="/somme/html" className="ms-6">HTML</Link>
+          <Link to="/somme/html" className="ms-6" onClick={closebouton}>HTML</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faCss3} className="text-blue-500"/>
-          <Link className="ms-6">CSS</Link>
+          <Link className="ms-6" onClick={closebouton}>CSS</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faJs} className="text-blue-500"/>
-          <Link className="ms-6">Javascript</Link>
+          <Link className="ms-6" onClick={closebouton}>Javascript</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faReact} className="text-blue-500"/>
-          <Link className="ms-6">Reactjs</Link>
+          <Link className="ms-6" onClick={closebouton}>Reactjs</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faAmericanSignLanguageInterpreting}className="text-blue-500"/>
-          <Link className="ms-6">REST Api</Link>
+          <Link className="ms-6" onClick={closebouton}>REST Api</Link>
         </li>
         <li className=" font-small">
         <FontAwesomeIcon icon={faGavel}className="text-blue-500"/>
-          <Link className="ms-6">Typescript</Link>
+          <Link className="ms-6" onClick={closebouton}>Typescript</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faAlgolia} className="text-blue-500"/>
-          <Link className="ms-6">Angularjs</Link>
+          <Link className="ms-6" onClick={closebouton}>Angularjs</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faNodeJs} className="text-blue-500"/>
-          <Link className="ms-6">Expressjs</Link>
+          <Link className="ms-6" onClick={closebouton}>Expressjs</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faMdb} className="text-blue-500"/>
-          <Link className="ms-6">MongoDb</Link>
+          <Link className="ms-6" onClick={closebouton}>MongoDb</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faM} className="text-blue-500"/>
           <Link className="ms-6">Mysql</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faBootstrap} className="text-blue-500"/>
-          <Link className="ms-6">Bootstrap 5</Link>
+          <Link className="ms-6" onClick={closebouton}>Bootstrap 5</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faTwitch} className="text-blue-500"/>
-          <Link className="ms-6">Tailwind</Link>
+          <Link className="ms-6" onClick={closebouton}>Tailwind</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faIcons} className="text-blue-500"/>
-          <Link className="ms-6">FontAwesome Icon</Link>
+          <Link className="ms-6" onClick={closebouton}>FontAwesome Icon</Link>
         </li>
         <h3 className="font-bold">How to use:</h3>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faBookReader} className="text-blue-500"/>
-          <Link to="/contact" className="ms-6">Swiperjs</Link>
+          <Link to="/contact" className="ms-6" onClick={closebouton}>Swiperjs</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faBarsProgress} className="text-blue-500"/>
-          <Link className="ms-6">React Sidebar</Link>
+          <Link className="ms-6" onClick={closebouton}>React Sidebar</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faSliders} className="text-blue-500"/>
-          <Link className="ms-6">React Slider</Link>
+          <Link className="ms-6" onClick={closebouton}>React Slider</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faTypo3} className="text-blue-500"/>
-          <Link className="ms-6">Typedjs</Link>
+          <Link className="ms-6" onClick={closebouton}>Typedjs</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faPadlet}className="text-blue-500"/>
-          <Link className="ms-6">Particles</Link>
+          <Link className="ms-6" onClick={closebouton}>Particles</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faWatchmanMonitoring} className="text-blue-500"/>
-          <Link className="ms-6">Framer-Motion</Link>
+          <Link className="ms-6" onClick={closebouton}>Framer-Motion</Link>
         </li>
-        <li className=" font-small">
+        <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faBridgeCircleCheck}className="text-blue-500"/>
-          <Link className="ms-6">Bcryptjs</Link>
+          <Link className="ms-6" onClick={closebouton}>Bcryptjs</Link>
         </li>
         <h3 className="font-bold">Hosting On:</h3>
         <li className=" font-small">
