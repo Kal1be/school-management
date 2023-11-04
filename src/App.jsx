@@ -4,6 +4,7 @@ import Somme from './Somme'
 import Accueil from "./Accueil"
 import Html from './pages/Html'
 import Blog from './pages/Blog'
+import Css from './pages/Css'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path='/somme' element={<Somme/>}/>
       <Route path="/somme/html" element={<Html/>}/>
       <Route path='/somme/blog' element={<Blog/>}/>
+      <Route path='/somme/css' element={<Css/>}/>
     </Routes>
    
    </Router>

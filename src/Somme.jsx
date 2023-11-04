@@ -15,8 +15,9 @@ function Somme() {
       <div className='w-70 bg-gray-200'>
         <Navbar/>
       </div>
-      <div className="static md:ms-72 overflow-x-hidden">
-       je suis
+      <div className="static md:ms-72 overflow-x-hidden mt-16">
+       Vous ne savez pas par ou commencer?
+       alore vous etes la bienvenue,ici nous fairons la defference entre le web developpement et la programmation
       </div>
     </div>
     </div>

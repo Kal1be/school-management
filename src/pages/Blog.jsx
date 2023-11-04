@@ -18,11 +18,11 @@ function Blog() {
     <div className='md:flex justify-around'>
     <div className='border inline-block md:w-72 p-4 bg-white mx-3 my-2 shadow-xl'>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolore tempora aliquam voluptatem voluptas. Nihil, rerum doloribus illo explicabo minus tempora magnam iste nisi repudiandae incidunt fugit odio nostrum vero quibusdam reprehenderit soluta labore consequuntur aperiam sunt natus. Quaerat, aspernatur, quo vel modi nemo doloremque quisquam quibusdam ipsa dolore blanditiis dolorum iste eum quod, illo recusandae! Nesciunt molestias sit amet.</p>
-    <div className='flex items-center'> <img src={img1} alt="" className='w-8 rounded-full'/><span className='text-blue-500 mx-2 italic'><strong>Kalibe Felix <span className='block text-sm text-gray-500'>Cofondateur</span></strong></span></div>
+    <div className='flex items-center'> <img src={img1} alt="" className='w-8 rounded-full'/><span className='text-blue-500 mx-2 italic'><strong>Kalibe Felix <span className='block text-sm text-gray-500'>Cofoundateur</span></strong></span></div>
      </div>
      <div className='border inline-block md:w-72 p-4 bg-white mx-3 my-2 shadow-xl'>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolore tempora aliquam voluptatem voluptas. Nihil, rerum doloribus illo explicabo minus tempora magnam iste nisi repudiandae incidunt fugit odio nostrum vero quibusdam reprehenderit soluta labore consequuntur aperiam sunt natus. Quaerat, aspernatur, quo vel modi nemo doloremque quisquam quibusdam ipsa dolore blanditiis dolorum iste eum quod, illo recusandae! Nesciunt molestias sit amet.</p>
-    <div className='flex items-center'> <img src={img2} alt="" className='w-8 rounded-full'/><span className='text-blue-500 mx-2 italic'><strong>Bianpambe Marcelin<span className='block text-sm text-gray-500'>Assistant</span></strong></span></div>
+    <div className='flex items-center'> <img src={img2} alt="" className='w-8 rounded-full'/><span className='text-blue-500 mx-2 italic'><strong>Namo Nathaniel <span className='block text-sm text-gray-500'>Foundateur</span></strong></span></div>
      </div>
      <div className='border inline-block md:w-72 p-4 bg-white mx-3 my-2 shadow-lg'>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolore tempora aliquam voluptatem voluptas. Nihil, rerum doloribus illo explicabo minus tempora magnam iste nisi repudiandae incidunt fugit odio nostrum vero quibusdam reprehenderit soluta labore consequuntur aperiam sunt natus. Quaerat, aspernatur, quo vel modi nemo doloremque quisquam quibusdam ipsa dolore blanditiis dolorum iste eum quod, illo recusandae! Nesciunt molestias sit amet.</p>

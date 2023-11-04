@@ -1,9 +1,8 @@
 import React from 'react'
-import Header from '../layahouts/Header'
-import Navbar from '../layahouts/Navbar'
 import NavbarHtml from '../layahouts/NavbarHtml'
+import Header from '../layahouts/Header'
 
-function Html() {
+function Css() {
   return (
     <div>
       <Header/>
@@ -14,9 +13,9 @@ function Html() {
      
     <div className='static md:ms-72 mx-4 mt-10'>
       <div>
-    <h3 className=' font-bold md:ms-72 text-2xl text-black'>HTML <span className='text-lg'>(HyperText Markup Language)</span></h3>
-    <p>Le HTML connu comme le Hyper Text Markup Language est un langage de balisage. Elle nous permet d'ecrire nos differents Title avec la balise (h1 a h5),nous pouvons aussi ecrire nos differents paragraph avec la balise (p) et plus encore,dans les lignes qui suivent nous essayerons de voir plus des exemples precis et plus concret qui vous permettrons de bien commencer.</p>
-        <p className='border bg-slate-100 rounded-md text-gray w-60 my-3 p-2 text-sm font-semibold'>Le secret de la programmation c'est la pratique. Par force de pratiquer vous finirez par obtenir ce que vous voulez. <span className='text-blue-400'>......Yahoulbo Felix</span></p>
+    <h3 className=' font-bold md:ms-72 text-2xl text-black'>CSS<span className='text-lg'>(Cascading Style Sheet)</span></h3>
+    <p>CSS est un language de style,elle nous permet de styliser nos differents sites,avec les proprietes CSS comme les color,position bacground et plus encore,nous y verrons tous dans les lignes qui suivent surtout n'oubliez pas pratiquer.</p>
+        <p className='border bg-slate-100 rounded-md text-gray w-60 my-3 p-2 text-sm font-semibold'> Seul le travail libere l'homme de sa souffrance,apprendre a coder s'est apprendre a reflechir. <span className='text-blue-400'>......Yahoulbo Raoul Djondang</span></p>
     </div>
     <div>
         <h2 className='font-bold md:ms-84 my-2  text-2xl text-black'>1) La balise pour les Titre</h2>
@@ -42,4 +41,4 @@ function Html() {
   )
 }
 
-export default Html
+export default Css

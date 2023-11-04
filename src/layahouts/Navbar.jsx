@@ -66,7 +66,7 @@ function Navbar() {
         </li>
         <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faCss3} className="text-blue-400"/>
-          <Link className="ms-6" onClick={closebouton}>CSS</Link>
+          <Link className="ms-6" to="/somme/css" onClick={closebouton}>CSS</Link>
         </li>
         <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faJs} className="text-blue-400"/>

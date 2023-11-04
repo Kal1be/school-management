@@ -21,7 +21,7 @@ function Header() {
             <FontAwesomeIcon icon={faSun} className='mx-2 text-blue-400'/>
            </div>
            <Link to="/signin" className="md:mx-3" >Sign In</Link>
-            <Link to="/"  className='border-none md:mx-2 p-1 rounded-lg bg-black text-white' id="compo">Get All Access <FontAwesomeIcon icon={faSignOut}/></Link>
+            <Link to="/somme"  className='border-none md:mx-2 p-1 rounded-lg bg-black text-white' id="compo">Get All Access <FontAwesomeIcon icon={faSignOut}/></Link>
         </div>
      </div>
     </div>
