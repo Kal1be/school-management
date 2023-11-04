@@ -1,0 +1,17 @@
+.orimadji button{
+    display: block;
+}
+.orimadji{
+    justify-content: center;
+    display: flex;
+}
+#marquee{
+    position: sticky;
+    top: 0;
+    z-index: -1;
+    padding: 7px;
+    color: white;
+}
+#myborder{
+    border-radius: 60% 90% 0 0;
+}

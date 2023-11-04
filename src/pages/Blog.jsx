@@ -13,18 +13,18 @@ function Blog() {
       <div className='w-70 bg-gray-200'>
         <Navbar/>
       </div>
-      <div className='static md:ms-72 block'>
-      <h2 className='md:text-2xl ms-10 font-serif font-bold py-2 md:ms-72'>Together Changing the life of Web</h2>
+      <div className='static md:ms-72 block mt-10'>
+      <h2 className='md:text-2xl ms-6 text-xl font-serif font-bold py-2 md:ms-72'>Ensemble changeons le monde du web.Croyons</h2>
     <div className='md:flex justify-around'>
-    <div className='border inline-block md:w-72 p-4 bg-gray-100 mx-3 my-2 shadow-xl'>
+    <div className='border inline-block md:w-72 p-4 bg-white mx-3 my-2 shadow-xl'>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolore tempora aliquam voluptatem voluptas. Nihil, rerum doloribus illo explicabo minus tempora magnam iste nisi repudiandae incidunt fugit odio nostrum vero quibusdam reprehenderit soluta labore consequuntur aperiam sunt natus. Quaerat, aspernatur, quo vel modi nemo doloremque quisquam quibusdam ipsa dolore blanditiis dolorum iste eum quod, illo recusandae! Nesciunt molestias sit amet.</p>
     <div className='flex items-center'> <img src={img1} alt="" className='w-8 rounded-full'/><span className='text-blue-500 mx-2 italic'><strong>Kalibe Felix <span className='block text-sm text-gray-500'>Cofondateur</span></strong></span></div>
      </div>
-     <div className='border inline-block md:w-72 p-4 bg-gray-100 mx-3 my-2 shadow-xl'>
+     <div className='border inline-block md:w-72 p-4 bg-white mx-3 my-2 shadow-xl'>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolore tempora aliquam voluptatem voluptas. Nihil, rerum doloribus illo explicabo minus tempora magnam iste nisi repudiandae incidunt fugit odio nostrum vero quibusdam reprehenderit soluta labore consequuntur aperiam sunt natus. Quaerat, aspernatur, quo vel modi nemo doloremque quisquam quibusdam ipsa dolore blanditiis dolorum iste eum quod, illo recusandae! Nesciunt molestias sit amet.</p>
-    <div className='flex items-center'> <img src={img2} alt="" className='w-8 rounded-full'/><span className='text-blue-500 mx-2 italic'><strong>Abbas Ali <span className='block text-sm text-gray-500'>Assistant</span></strong></span></div>
+    <div className='flex items-center'> <img src={img2} alt="" className='w-8 rounded-full'/><span className='text-blue-500 mx-2 italic'><strong>Bianpambe Marcelin<span className='block text-sm text-gray-500'>Assistant</span></strong></span></div>
      </div>
-     <div className='border inline-block md:w-72 p-4 bg-gray-100 mx-3 my-2 shadow-lg'>
+     <div className='border inline-block md:w-72 p-4 bg-white mx-3 my-2 shadow-lg'>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolore tempora aliquam voluptatem voluptas. Nihil, rerum doloribus illo explicabo minus tempora magnam iste nisi repudiandae incidunt fugit odio nostrum vero quibusdam reprehenderit soluta labore consequuntur aperiam sunt natus. Quaerat, aspernatur, quo vel modi nemo doloremque quisquam quibusdam ipsa dolore blanditiis dolorum iste eum quod, illo recusandae! Nesciunt molestias sit amet.</p>
     <div className='flex items-center'> <img src={img1} alt="" className='w-8 rounded-full'/><span className='text-blue-500 mx-2 italic'><strong>Ephraim Haruna<span className='block text-sm text-gray-500'>Director</span></strong></span></div>
      </div>

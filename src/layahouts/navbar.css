@@ -22,11 +22,19 @@
     visibility: hidden;
     display:none;
 }
+#btne{
+    display: none;
+}
 @media(max-width:850px){
     #div{
        visibility: visible;
        display:flex;
        justify-content: space-between;
+    }
+    marquee span{
+        font-weight: 600;
+        font-size: 12px;
+        color: white;
     }
     .navbare{
         position: fixed;
@@ -38,5 +46,8 @@
         position: fixed;
        display: block;
        visibility: visible;
+    }
+    #btne{
+        display: flex;
     }
 }
