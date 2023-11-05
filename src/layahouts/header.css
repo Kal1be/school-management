@@ -22,4 +22,7 @@
         margin: 4px 0;
         transition: 0.4s;
       }
+      #icontitle{
+        font-size: 17px;
+      }
 }

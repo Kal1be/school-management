@@ -53,7 +53,7 @@ function NavbarJs() {
       </div>
       </div>
     <div className="flex  justify-between px-3 py-3 items-center" id="div">
-     <p className="font-bold">Apprendre <span className="text-blue-400">CSS</span></p>
+     <p className="font-bold">Apprendre <span className="text-blue-400">JavaScript</span></p>
         <FontAwesomeIcon icon={faClose} className="text-end" onClick={closebouton}/>
     </div>
       <div className='text-gray mb-20'>
