@@ -15,7 +15,7 @@ function NavbarHtml() {
     return (
   
      <>
-    <div className="py-1  md:fixed fixed md:top-0 top-10 bg-slate-700 w-screen" id="btn">
+    <div className="py-1  md:fixed fixed md:top-0 top-10 bg-slate-800 w-screen" id="btn">
     <div className="flex justify-between items-center">
     <div class="container me-2 ps-4 w-14 mt-2 " onClick={handleopen} >
     <div class="bar1"></div>
@@ -68,8 +68,24 @@ function NavbarHtml() {
             <Link className="ms-6" onClick={closebouton}>p</Link>
           </li>
           <hr />
+         
+          <li className=" font-small" onClick={closebouton}>
+            <Link className="ms-6" onClick={closebouton}>ul</Link>
+          </li>
+          <hr />
+          <li className=" font-small" onClick={closebouton}>
+            <Link className="ms-6" onClick={closebouton}>ol</Link>
+          </li>
+          <li className=" font-small" onClick={closebouton}>
+            <Link className="ms-6" onClick={closebouton}>li</Link>
+          </li>
+          <hr />
           <li className=" font-small" onClick={closebouton}>
             <Link to="/somme/html" className="ms-6" onClick={closebouton}>div</Link>
+          </li>
+          <hr />
+          <li className=" font-small" onClick={closebouton}>
+            <Link className="ms-6" onClick={closebouton}>pre</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
@@ -124,21 +140,7 @@ function NavbarHtml() {
             <Link className="ms-6" onClick={closebouton}>code</Link>
           </li>
           <hr />
-          <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>pre</Link>
-          </li>
-          <hr />
-          <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>ul</Link>
-          </li>
-          <hr />
-          <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>ol</Link>
-          </li>
-          <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>li</Link>
-          </li>
-          <hr />
+         
           <li className=" font-small" onClick={closebouton}>
             <Link className="ms-6" onClick={closebouton}>textarea</Link>
           </li>

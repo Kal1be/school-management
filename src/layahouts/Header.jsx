@@ -7,7 +7,7 @@ import {Link } from "react-router-dom"
 function Header() {
 
   return (
-    <div className='sticky top-0 bg-slate-700 md:p-3 px-2 py-4 shadow-lg'>
+    <div className='sticky top-0 bg-slate-800 md:p-3 px-2 py-4 shadow-lg'>
      <div className='flex justify-between items-center  px-2'>
         <h2 className='text-white flex items-center md:font-bold font-bold text-md md:text-3xl' id="icontitle">
         

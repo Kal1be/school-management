@@ -15,10 +15,12 @@ function Somme() {
       <div className='w-70 bg-gray-200'>
         <Navbar/>
       </div>
-      <div className="static md:ms-72 overflow-x-hidden mt-16">
-       Vous ne savez pas par ou commencer?
-       alore vous etes la bienvenue,ici nous fairons la defference entre le web developpement et la programmation
+      <div className="static md:ms-72 overflow-x-hidden mt-8">
+        <h2 className='text-center font-bold text-xl text-slate-700'>Bienvenue a WebDocs une plateforme d'apprentissage en ligne</h2>
+     <p className='mx-2 my-2'> WebDocs est une plateforme d'apprentissage en ligne,vous pourrez apprendre presque et tous sa gratuitement,ce plateforme
+       a ete creer pour aider les etudiants passionner d'informatique a grimper leurs niveaux et etre au top.</p>
       </div>
+      
     </div>
     </div>
   )

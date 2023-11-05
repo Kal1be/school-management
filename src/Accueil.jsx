@@ -10,7 +10,7 @@ function Accueil (){
     return(
        <>
        <Header/>
-      <div id="marquee" className="bg-slate-700 flex">
+      <div id="marquee" className="bg-slate-800 flex">
         <h3 className="font-bold px-2">Apprendre</h3>
       <marquee behavior="slow" direction="" >
       <span className="mx-3">HTML</span>
@@ -28,7 +28,7 @@ function Accueil (){
   <span  className="mx-3">ExpressJs</span>
       </marquee>
       </div>
-       <div className="text-center pt-16 bg-slate-700 py-72 md:py-40">
+       <div className="text-center pt-16 bg-slate-800 py-72 md:py-40">
        <h3 className="text-5xl font-sans font-extrabold text-white md:text-7xl"> Apprendre a coder</h3>
        <h3 className="text-center font-extrabold text-xl pt-10 text-yellow-600 mx-4">Vivez vos passion et vos reves dans le developpement web.</h3>
       <div className="flex justify-center px-2">
@@ -117,7 +117,7 @@ function Accueil (){
        <div className="pt-16 bg-sky-400 text-center pb-16">
        <h3 className="text-3xl font-extrabold">Angular</h3>
        </div>
-       <div className="pt-16 bg-slate-700 text-center pb-16">
+       <div className="pt-16 bg-slate-800 text-center pb-16">
        <h3 className="text-3xl text-white font-extrabold">TypeScript</h3>
        </div>
        <div className="pt-16 bg-red-300 text-center pb-16">

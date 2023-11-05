@@ -15,7 +15,7 @@ function NavbarHtml() {
     return (
   
      <>
-    <div className="py-1  md:fixed fixed md:top-0 top-10 bg-slate-700 w-screen" id="btn">
+    <div className="py-1  md:fixed fixed md:top-0 top-10 bg-slate-800 w-screen" id="btn">
     <div className="flex justify-between items-center">
     <div class="container me-2 ps-4 w-14 mt-2 " onClick={handleopen} >
     <div class="bar1"></div>
