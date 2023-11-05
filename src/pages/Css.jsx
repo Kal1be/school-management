@@ -1,5 +1,5 @@
 import React from 'react'
-import NavbarHtml from '../layahouts/NavbarHtml'
+import NavbarCss from '../layahouts/Navbarcss'
 import Header from '../layahouts/Header'
 
 function Css() {
@@ -8,7 +8,7 @@ function Css() {
       <Header/>
       <div className="flex">
       <div className='w-70 bg-gray-200'>
-       <NavbarHtml/>
+       <NavbarCss/>
       </div>
      
     <div className='static md:ms-72 mx-4 mt-10'>

@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch,faClose } from '@fortawesome/free-solid-svg-icons'
 
-function NavbarHtml() {
+function NavbarJs() {
     const [open,setOpen] =useState(true)
     const handleopen=()=>{
       setOpen(!open)
@@ -58,117 +58,117 @@ function NavbarHtml() {
     </div>
       <div className='text-gray mb-20'>
         <ul className="px-3">
-         <h3 className="font-bold">Les proprites Css:</h3>
+         <h3 className="font-bold">JavaScript Propriete:</h3>
           
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>Color</Link>
+            <Link className="ms-6" onClick={closebouton}>Window</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>Bacground</Link>
+            <Link className="ms-6" onClick={closebouton}>Document</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link to="/somme/html" className="ms-6" onClick={closebouton}>display</Link>
+            <Link to="/somme/html" className="ms-6" onClick={closebouton}>variable</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>position</Link>
+            <Link className="ms-6" onClick={closebouton}>constante</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>Css Grid</Link>
+            <Link className="ms-6" onClick={closebouton}>let keywords</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>Css Animation</Link>
+            <Link className="ms-6" onClick={closebouton}>addEventListener</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>margin</Link>
+            <Link className="ms-6" onClick={closebouton}>ClassList</Link>
           </li>
           <li className=" font-small">
-            <Link className="ms-6" onClick={closebouton}>padding</Link>
+            <Link className="ms-6" onClick={closebouton}>add</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>Box</Link>
+            <Link className="ms-6" onClick={closebouton}>remove</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>Z-index</Link>
+            <Link className="ms-6" onClick={closebouton}>contains</Link>
           </li>
           <hr />
         
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6">@media responsive</Link>
+            <Link className="ms-6">DOM</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>@Keyframes</Link>
+            <Link className="ms-6" onClick={closebouton}>Array</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>frame</Link>
+            <Link className="ms-6" onClick={closebouton}>Object</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>iframe</Link>
+            <Link className="ms-6" onClick={closebouton}>Conditional</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link to="/contact" className="ms-6" onClick={closebouton}>audio</Link>
+            <Link to="/contact" className="ms-6" onClick={closebouton}>Spread Operator</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>code</Link>
+            <Link className="ms-6" onClick={closebouton}>Array detructuring</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>pre</Link>
+            <Link className="ms-6" onClick={closebouton}>Prepend</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>ul</Link>
+            <Link className="ms-6" onClick={closebouton}>append</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>ol</Link>
+            <Link className="ms-6" onClick={closebouton}>insertBefore</Link>
           </li>
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>li</Link>
+            <Link className="ms-6" onClick={closebouton}>NextElementSiblings</Link>
           </li>
           <hr />
           <li className=" font-small" onClick={closebouton}>
-            <Link className="ms-6" onClick={closebouton}>textarea</Link>
+            <Link className="ms-6" onClick={closebouton}>PreviousElementSiblings</Link>
           </li>
           <hr />
           <li className=" font-small">
-            <Link to="/contact" className="ms-6">script</Link>
+            <Link to="/contact" className="ms-6">Function</Link>
           </li>
           <hr />
           <li className=" font-small">
-            <Link className="ms-6">style</Link>
+            <Link className="ms-6">Arrow Function</Link>
           </li>
           <hr />
           <li className=" font-small">
-            <Link className="ms-6">input</Link>
+            <Link className="ms-6">CallBack function</Link>
           </li>
           <hr />
           <li className=" font-small">
-            <Link className="ms-6">label</Link>
+            <Link className="ms-6">Logic && Operator</Link>
           </li>
           <hr />
           <li className=" font-small">
-            <Link className="ms-6">form</Link>
+            <Link className="ms-6">Class keywords</Link>
           </li>
           <hr />
           <li className=" font-small">
-            <Link className="ms-6">select</Link>
+            <Link className="ms-6">Method de l'array</Link>
           </li>
           <hr />
           <li className=" font-small">
-            <Link className="ms-6">option</Link>
+            <Link className="ms-6">Exemple</Link>
           </li>
           <hr />
         </ul>
@@ -181,4 +181,4 @@ function NavbarHtml() {
     )
 }
 
-export default NavbarHtml
+export default NavbarJs

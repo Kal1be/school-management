@@ -30,7 +30,7 @@ function Accueil (){
       </div>
        <div className="text-center pt-16 bg-slate-700 py-72 md:py-40">
        <h3 className="text-5xl font-sans font-extrabold text-white md:text-7xl"> Apprendre a coder</h3>
-       <h3 className="text-center font-extrabold text-xl pt-10 text-yellow-500 mx-4">Vivez vos passion et vos reves dans le developpement web.</h3>
+       <h3 className="text-center font-extrabold text-xl pt-10 text-yellow-600 mx-4">Vivez vos passion et vos reves dans le developpement web.</h3>
       <div className="flex justify-center px-2">
       <div className=' flex border rounded-md w-52 bg-white justify-between items-center py-1 my-6 '  >
     <input type="text" placeholder='recherche...' className='border-none rounded-md outline-none w-44 px-3' />
@@ -69,7 +69,7 @@ function Accueil (){
        <div className="orimadji">
        
        <div>
-       <button className=" bg-blue-400 mx-4 text-white font-bold text-xl py-2 px-4 rounded-2xl my-2">Apprendre JavaScript</button>
+       <button className=" bg-blue-400 mx-4 text-white font-bold text-xl py-2 px-4 rounded-2xl my-2"><Link to="/somme/javascript">Apprendre JavaScript</Link></button>
        <button className=" bg-white mx-4 text-black font-bold text-xl py-2 px-5 rounded-2xl my-2">JavaScript Reference</button>
        <button className=" bg-red-400 mx-4 text-white font-bold text-xl py-2 px-5 rounded-2xl">Obtenir un Certificat</button>
       

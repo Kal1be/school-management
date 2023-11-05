@@ -70,7 +70,7 @@ function Navbar() {
         </li>
         <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faJs} className="text-blue-400"/>
-          <Link className="ms-6" onClick={closebouton}>Javascript</Link>
+          <Link className="ms-6" to="/somme/javascript" onClick={closebouton}>Javascript</Link>
         </li>
         <li className=" font-small" onClick={closebouton}>
         <FontAwesomeIcon icon={faPython} className="text-blue-400"/>
