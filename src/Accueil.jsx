@@ -2,11 +2,47 @@ import {Link} from "react-router-dom"
 import Header from "./layahouts/Header"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSearch } from "@fortawesome/free-solid-svg-icons"
+import { CodeBlock,dracula } from "react-code-blocks"
 import "./accueil.css"
 
 
 
 function Accueil (){
+  const html=`<!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+  <title>mon site</title>
+  </head>
+  <body>
+  </body>
+</html>`
+const css=`div{
+  color:blue;
+  margin:2px 4px;
+  padding:10px;
+  position :absolute;
+  top:0;
+  animation: contain .2s all linear infinite;
+}
+@keyframes contain{
+0%{left:0}
+90%{left:90%}
+100%{left:0}
+}
+`
+const javascript =`
+const contain=document.getElementById("container")
+let toggleNav=document.querySelector(".toggle")
+const toggle=()=>{
+  toggleNav.classList.toggle(".active")
+}
+container.addEventListener("click",toggle)
+
+
+`
     return(
        <>
        <Header/>
@@ -39,10 +75,11 @@ function Accueil (){
       </div>
       <h3 className="underline text-xl font-bold text-gray-200"><Link to="/somme">Vous savez pas ou commencer?</Link></h3>
        </div>
-
+{/*++++++++++++++++++++==================== the part of html for my students=========================+++++++++++++++++++++++++ */}
 <h3 className="p-4 w-64  bg-green-200 -z-10 -mt-24" id="myborder"></h3>
-       <div className="pt-16 bg-green-200 text-center pb-6">
-       <h3 className="text-5xl font-extrabold">HTML</h3>
+       <div className="md:flex justify-center pt-16 bg-green-200 text-center pb-6">
+      <div className="md:mx-10">
+      <h3 className="text-5xl md:text-6xl font-extrabold">HTML</h3>
        <h3 className="text-lg font-bold text-gray-600 my-3">Le language pour creer des sites</h3>
       <div className="orimadji">
      <div>
@@ -51,9 +88,21 @@ function Accueil (){
        <button className=" bg-red-400 mx-4 text-white font-bold text-xl py-2 px-2 rounded-2xl">Obtenir un Certificat</button>
      </div>
       </div>
+      </div>
+      <div  className="text-start mx-4 md:mx-2 my-4 md:my-0">
+        <CodeBlock text={html}
+       
+
+language='html'
+showLineNumbers={true}
+theme={dracula}/>
+      </div>
        </div>
-       <div className="pt-16 bg-yellow-200 text-center pb-6">
-       <h3 className="text-5xl font-extrabold">CSS3</h3>
+
+       {/*++++++++++++++=================== the part of de css3 model =======================+++++++++++++++++++*/}
+       <div className="md:flex pt-16 justify-center bg-yellow-200 text-center pb-6">
+      <div className="md:mx-10">
+      <h3 className="text-5xl md:text-6xl font-extrabold">CSS3</h3>
        <h3 className="text-lg font-bold text-gray-800 my-3">Language pour styliser les sites web</h3>
       <div className="orimadji">
     <div>
@@ -62,9 +111,20 @@ function Accueil (){
        <button className=" bg-red-400 mx-4 text-white font-bold text-xl py-2 px-2 rounded-2xl">Obtenir un Certificat</button>
     </div>
       </div>
+      </div>
+      <div className="text-start my-4 md:my-0 mx-4 md:mx-2">
+      <CodeBlock text={css}
+       
+
+       language='css'
+       showLineNumbers={true}
+       theme={dracula}/>
+      </div>
        </div>
-       <div className="pt-16 bg-gray-950 text-center text-white pb-6">
-       <h3 className="text-5xl font-extrabold"> JavaScript</h3>
+       {/* =+++++++++++++++++++++++++======================the part of javascript for my students=========================+++++++++++++++++++++++ */}
+       <div className="md:flex justify-center pt-16 bg-gray-950 text-center text-white pb-6">
+      <div className="md:mx-6">
+      <h3 className="md:text-5xl text-5xl font-extrabold"> JavaScript</h3>
        <h3 className="text-lg font-bold text-gray-200 my-3">Le language pour programmer les sites web</h3>
        <div className="orimadji">
        
@@ -76,6 +136,15 @@ function Accueil (){
         </div>
         
          </div>
+      </div>
+      <div className="text-start my-4 md:my-0 mx-4 md:mx-2">
+      <CodeBlock text={javascript}
+       
+
+       language='js'
+       showLineNumbers={true}
+       theme={dracula}/>
+      </div>
        </div>
        <div className="pt-16 bg-gray-100 text-center pb-6">
        <h3 className="text-5xl font-extrabold">Python</h3>
