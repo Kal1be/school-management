@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSearch } from "@fortawesome/free-solid-svg-icons"
 import { CodeBlock,dracula } from "react-code-blocks"
 import "./accueil.css"
+import Footer from "./layahouts/Footer"
 
 
 
@@ -68,9 +69,9 @@ container.addEventListener("click",toggle)
        <h3 className="text-5xl font-sans font-extrabold text-white md:text-7xl"> Apprendre a coder</h3>
        <h3 className="text-center font-extrabold text-xl pt-10 text-yellow-600 mx-4">Vivez vos passion et vos reves dans le developpement web.</h3>
       <div className="flex justify-center px-2">
-      <div className=' flex border rounded-md w-52 bg-white justify-between items-center py-1 my-6 '  >
-    <input type="text" placeholder='recherche...' className='border-none rounded-md outline-none w-44 px-3' />
-    <FontAwesomeIcon icon={faSearch} className='text-gray-400 px-2 text-lg'/>
+      <div className=' flex border rounded-md w-52 bg-slate-800 justify-between items-center py-1 my-6 '  >
+    <input type="text" placeholder='Search...' className='border-none rounded-md outline-none w-44 px-3 font-medium text-lg bg-slate-800 text-white' />
+    <FontAwesomeIcon icon={faSearch} className='text-gray-200 px-2 text-lg font-medium'/>
     </div>
       </div>
       <h3 className="underline text-xl font-bold text-gray-200"><Link to="/somme">Vous savez pas ou commencer?</Link></h3>
@@ -146,6 +147,9 @@ theme={dracula}/>
        theme={dracula}/>
       </div>
        </div>
+
+       {/* +++++++++++++++++==================the python for my user students==============================++++++++++++++++++++++++++ */}
+
        <div className="pt-16 bg-gray-100 text-center pb-6">
        <h3 className="text-5xl font-extrabold">Python</h3>
        <h3 className="text-lg font-bold text-gray-800 my-3">Le plus populaire language de programmation</h3>
@@ -157,6 +161,7 @@ theme={dracula}/>
       </div>
        </div>
        </div>
+       {/* +++++++++++++++++++++++++++=======================================the c++ for my students===================++++++++++++++++++++++++++++ */}
        <div className="pt-16 bg-yellow-200 text-center pb-6">
        <h3 className="text-5xl font-extrabold">C++</h3>
        <h3 className="text-lg font-bold text-gray-800 my-3">Language de Programmation</h3>
@@ -168,7 +173,7 @@ theme={dracula}/>
     </div>
       </div>
        </div>
-
+{/* +++++++++++++++++++++++++++++++===============================the java for my students====================+++++++++++++++++++++++++++++ */}
        <div className="pt-16 bg-gray-100 text-center pb-6">
        <h3 className="text-5xl font-extrabold">Java</h3>
        <h3 className="text-lg font-bold text-gray-800 my-3">Language de programmation</h3>
@@ -180,30 +185,39 @@ theme={dracula}/>
     </div>
       </div>
        </div>
+       {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
        <div className="pt-16 bg-green-300 text-center pb-16">
        <h3 className="text-3xl text-white font-extrabold">React</h3>
        </div>
+         {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
        <div className="pt-16 bg-sky-400 text-center pb-16">
        <h3 className="text-3xl font-extrabold">Angular</h3>
        </div>
+         {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
        <div className="pt-16 bg-slate-800 text-center pb-16">
        <h3 className="text-3xl text-white font-extrabold">TypeScript</h3>
        </div>
+         {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
        <div className="pt-16 bg-red-300 text-center pb-16">
        <h3 className="text-3xl font-extrabold">MongoDb</h3>
        </div>
+         {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
        <div className="pt-16 bg-black text-center pb-16">
        <h3 className="text-3xl text-white font-extrabold">MySql</h3>
        </div>
+         {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
        <div className="pt-16 bg-yellow-300 text-center pb-16">
        <h3 className="text-3xl font-extrabold">ExpressJs</h3>
        </div>
+         {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
        <div className="pt-16 bg-gray-100 text-center pb-16">
        <h3 className="text-3xl font-extrabold">Data Analysis</h3>
        </div>
+         {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
        <div className="pt-16 bg-green-300 text-center pb-16">
        <h3 className="text-3xl font-extrabold">Github</h3>
        </div>
+       <Footer/>
         
         </>
     )

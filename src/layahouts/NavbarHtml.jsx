@@ -53,7 +53,7 @@ function NavbarHtml() {
       </div>
       </div>
     <div className="flex  justify-between px-3 py-3 items-center" id="div">
-     <p className="font-bold">Apprendre <span className="text-blue-400">HTML</span></p>
+     <p className="font-bold">Apprendre <span className="text-yellow-500">HTML</span></p>
         <FontAwesomeIcon icon={faClose} className="text-end" onClick={closebouton}/>
     </div>
       <div className='text-gray mb-20'>

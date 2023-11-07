@@ -15,3 +15,7 @@
 #myborder{
     border-radius: 60% 90% 0 0;
 }
+.text-yellow-600 {
+    --tw-text-opacity: 1;
+    color: #ca8a04;
+}
