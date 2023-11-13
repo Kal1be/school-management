@@ -3,19 +3,18 @@ import img from "../img/webdocs icon.png"
 
 function Footer() {
   return (
-    <div className='bg-gray-950 p-4 text-white'>
+    <div className='bg-slate-800 p-4 text-white'>
         <div className='md:flex justify-around'>
         <div>
         <h2 className='text-white flex items-center md:font-bold font-bold text-md md:text-xl' id="icontitle">
         <img src={img} alt="" className="md:w-6 -mt-3 md:me-2 w-7 me-1 "/>
           Web[<span className="text-yellow-600 md:text-xl"> Docs</span></h2> 
-          <div><p className='w-40 my-3'>Lorem ipsum dolor sit amet consectetur
-             adipisicing elit. Libero, sapiente.</p></div>
+          <div><p className='w-72 text-sm font-normal my-3 text-gray-400'>WebDocs est une plateforme d'apprentissage en ligne utiliser par plus de 2000 etudiants autour du monde,apprendre et connaitre est notre priorite.</p></div>
         </div>
         <div className='my-3 md:my-0'>
             <h2 className='font-extrabold'>Listes de nos Cours</h2>
             <div>
-                <ul>
+                <ul className='text-sm font-normal text-gray-400'>
                     <li>- Apprendre HTML</li>
                     <li>- Apprendre CSS3</li>
                     <li>- Apprendre JavaScript</li>
@@ -27,7 +26,7 @@ function Footer() {
         </div>
         <div className='my-3 md:my-0'> 
         <h2 className='font-extrabold'>Differents Blog</h2>
-        <ul>
+        <ul  className='text-sm font-normal text-gray-400'>
             <li>- Lire les Commentaires</li>
             <li>- Avoir de l'aide</li>
             <li>- Demander plus de conseil</li>
@@ -40,7 +39,7 @@ function Footer() {
         <div>
         <h2 className='font-extrabold'>Documentation</h2>
         <div>
-            <ul>
+            <ul  className='text-sm font-normal text-gray-400'>
                 <li>- Lire la documentaion du HTML</li>
                 <li>- Lire la documentaion du CSS</li>
                 <li>- Lire la documentaion du JavaScript</li>

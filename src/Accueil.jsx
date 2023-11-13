@@ -1,7 +1,8 @@
 import {Link} from "react-router-dom"
 import Header from "./layahouts/Header"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faSearch } from "@fortawesome/free-solid-svg-icons"
+import { faDatabase, faSearch, faSquare, faTextHeight, faTextSlash } from "@fortawesome/free-solid-svg-icons"
+import {faFacebookF,faReact,faJs,faCss3,faAlgolia,faNodeJs,faMdb,faSquareGithub,faGithub, faTwitch, faBootstrap, faTypo3, faPadlet, faWatchmanMonitoring, faPython, faAngular, faVuejs, faFigma} from "@fortawesome/free-brands-svg-icons"
 import { CodeBlock,dracula } from "react-code-blocks"
 import "./accueil.css"
 import Footer from "./layahouts/Footer"
@@ -161,8 +162,9 @@ theme={dracula}/>
       </div>
        </div>
        </div>
-       {/* +++++++++++++++++++++++++++=======================================the c++ for my students===================++++++++++++++++++++++++++++ */}
-       <div className="pt-16 bg-yellow-200 text-center pb-6">
+      <div className="md:flex bg-slate-800 md:py-4 overflow-hidden ">
+         {/* +++++++++++++++++++++++++++=======================================the c++ for my students===================++++++++++++++++++++++++++++ */}
+       <div className="pt-16 bg-yellow-200 text-center pb-6 w-screen md:mx-3">
        <h3 className="text-5xl font-extrabold">C++</h3>
        <h3 className="text-lg font-bold text-gray-800 my-3">Language de Programmation</h3>
       <div className="orimadji">
@@ -174,7 +176,7 @@ theme={dracula}/>
       </div>
        </div>
 {/* +++++++++++++++++++++++++++++++===============================the java for my students====================+++++++++++++++++++++++++++++ */}
-       <div className="pt-16 bg-gray-100 text-center pb-6">
+       <div className="pt-16 bg-gray-100 text-center pb-6 w-screen md:mx-3">
        <h3 className="text-5xl font-extrabold">Java</h3>
        <h3 className="text-lg font-bold text-gray-800 my-3">Language de programmation</h3>
       <div className="orimadji">
@@ -185,36 +187,79 @@ theme={dracula}/>
     </div>
       </div>
        </div>
-       {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
-       <div className="pt-16 bg-green-300 text-center pb-16">
-       <h3 className="text-3xl text-white font-extrabold">React</h3>
+
+      </div>
+
+       {/* ++++++++++++++++++++=============================the start of first==================+++++++++++++++++++++++++++++++++++++++++++++++++ */}
+      <div className="md:flex justify-between md:px-6 md:py-6 bg-slate-800">
+         {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
+       <div className="pt-16 bg-white text-center pb-16 md:w-screen">
+        <FontAwesomeIcon icon={faReact} className="text-6xl text-sky-500"/>
+       <h3 className="text-3xl text-sky-500 font-extrabold">ReactJs</h3>
        </div>
          {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
-       <div className="pt-16 bg-sky-400 text-center pb-16">
-       <h3 className="text-3xl font-extrabold">Angular</h3>
+       <div className="pt-16 bg-sky-400 text-center pb-16 md:w-screen md:mx-3 ">
+        <FontAwesomeIcon icon={faAngular} className="text-6xl text-yellow-400"/>
+       <h3 className="text-3xl font-extrabold text-yellow-400">AngularJs</h3>
        </div>
          {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
-       <div className="pt-16 bg-slate-800 text-center pb-16">
-       <h3 className="text-3xl text-white font-extrabold">TypeScript</h3>
+       <div className="pt-16 bg-white text-center pb-16 md:w-screen">
+        <FontAwesomeIcon icon={faTextSlash} className="text-6xl text-slate-800"/>
+       <h3 className="text-3xl text-slate-800 font-extrabold">TypeScript</h3>
+       </div>
+      </div>
+
+{/* +++++++++++++++++++++++===================the tab of second element+==================+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
+      <div className="md:flex justify-between md:px-6 md:py-6 bg-slate-800">
+         {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
+       <div className="pt-16 bg-black text-center pb-16 md:w-screen">
+        <FontAwesomeIcon icon={faVuejs} className="text-6xl text-green-400"/>
+       <h3 className="text-3xl text-white font-extrabold">VueJs</h3>
        </div>
          {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
-       <div className="pt-16 bg-red-300 text-center pb-16">
+         <div className="pt-16 bg-green-300 text-center pb-16 md:w-screen">
+        <FontAwesomeIcon icon={faFigma} className="text-6xl text-slate-800"/>
+       <h3 className="text-3xl text-slate-800 font-extrabold">Figma</h3>
+       </div>
+         {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
+       <div className="pt-16 bg-blue-900 text-center pb-16 md:w-screen md:mx-3 ">
+        <FontAwesomeIcon icon={faBootstrap} className="text-6xl text-white"/>
+       <h3 className="text-3xl font-extrabold text-white">Bootstrap</h3>
+       </div>
+       
+      </div>
+      {/* ===============+++++++++++++++++++the end of it=+++++++++++++++++++++++++================================================================ */}
+
+
+
+{/* ++++++++++++++++++++==========================tjhe start of the tree of the elememt================+++++++++++++++++++++++++++++++++++++++++++++++ */}
+       <div className="md:flex justify-between md:px-6  md:py-6 bg-slate-800">
+          {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
+       <div className="pt-16 bg-red-300 text-center pb-16 md:w-screen">
+        
+       <FontAwesomeIcon icon={faMdb} className="text-6xl text-white"/>
        <h3 className="text-3xl font-extrabold">MongoDb</h3>
        </div>
          {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
-       <div className="pt-16 bg-black text-center pb-16">
+       <div className="pt-16 bg-black text-center pb-16 md:w-screen md:mx-3">
+        
+       <FontAwesomeIcon icon={faDatabase} className="text-6xl text-yellow-500"/>
        <h3 className="text-3xl text-white font-extrabold">MySql</h3>
        </div>
          {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
-       <div className="pt-16 bg-yellow-300 text-center pb-16">
+       <div className="pt-16 bg-yellow-300 text-center pb-16 md:w-screen">
+        <FontAwesomeIcon icon={faNodeJs} className="text-6xl text-white"/>
        <h3 className="text-3xl font-extrabold">ExpressJs</h3>
+       </div>
        </div>
          {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
        <div className="pt-16 bg-gray-100 text-center pb-16">
+      
        <h3 className="text-3xl font-extrabold">Data Analysis</h3>
        </div>
          {/* ++++++++++++++++++++++++===========================the framework part of my stuidents+=====================++++++++++++++++++++++++++++ */}
        <div className="pt-16 bg-green-300 text-center pb-16">
+       <FontAwesomeIcon icon={faGithub} className="text-6xl text-black"/>
        <h3 className="text-3xl font-extrabold">Github</h3>
        </div>
        <Footer/>

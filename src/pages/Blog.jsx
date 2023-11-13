@@ -1,6 +1,7 @@
 import React from 'react'
-import img1 from "../assets/img 4.jpg"
-import img2 from "../assets/felix1.jpg"
+import img1 from "../assets/devsoftware.jpg"
+import img2 from "../assets/batha.jpg"
+import img3 from'../assets/nathaniel.jpg'
 import Header from '../layahouts/Header'
 import Navbar from '../layahouts/Navbar'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -25,11 +26,11 @@ function Blog() {
      </div>
      <div className='border inline-block md:w-72 p-4 bg-white mx-3 my-2 shadow-xl'>
       <p>Salut,Nathaniel je suis Data Analyst Foundateur du projet WebDocs,nous faisons nos meilleures pour vous offrir une meilleurs interfaces utilisateurs,je serai ravi de repondre a plusieurs de vos question a propos de vos differents question qui seront la bienvenue et nous permettra d'ameliorer l'experience d'utilisateur.</p>
-    <div className='flex items-center'> <img src={img2} alt="" className='w-8 rounded-full'/><span className='text-yellow-500 mx-2 italic'><strong>Namo Nathaniel <small className='block text-sm font-normal text-gray-500'>Foundateur</small></strong></span></div>
+    <div className='flex items-center'> <img src={img3} alt="" className='w-8 rounded-full'/><span className='text-yellow-500 mx-2 italic'><strong>Namo Nathaniel <small className='block text-sm font-normal text-gray-500'>Foundateur</small></strong></span></div>
      </div>
      <div className='border inline-block md:w-72 p-4 bg-white mx-3 my-2 shadow-lg'>
-      <p>Hello friend i'm mister Haruna,Director of the project WebDocs,leave free your self to send us a feedback,it's will allow us to change and offer you the good user interface and allowed you buid your carreer in the web developpment,here we think that we are so excited to read our course et practice as well as possible.</p>
-    <div className='flex items-center'> <img src={img1} alt="" className='w-8 rounded-full'/><span className='text-yellow-500 mx-2 italic'><strong>Ephraim Haruna<small className='block text-sm font-normal text-gray-500'>Director</small></strong></span></div>
+      <p>Hello friend i'm mister Bata,Director of the project WebDocs,leave free your self to send us a feedback,it's will allow us to change and offer you the good user interface and allowed you buid your carreer in the web developpment,here we think that we are so excited to read our course et practice as well as possible.</p>
+    <div className='flex items-center'> <img src={img2} alt="" className='w-8 rounded-full'/><span className='text-yellow-500 mx-2 italic'><strong>Zoaka Bata Boukar<small className='block text-sm font-normal text-gray-500'>Director</small></strong></span></div>
     
      </div>
     
@@ -38,7 +39,6 @@ function Blog() {
       <h2 className='md:text-3xl mx-3 text-2xl font-serif font-bold py-2 text-center'>Ce que nos etudiants disent a propos de nous?</h2>
       <div className='border inline-block md:w-72 p-4 bg-white mx-3 my-2 shadow-lg'>
       <p>Hello friend i'm mister Haruna,Director of the project WebDocs,leave free your self to send us a feedback,it's will allow us to change and offer you the good user interface and allowed you buid your carreer in the web developpment,here we think that we are so excited to read our course et practice as well as possible.</p>
-    <div className='flex items-center'> <img src={img1} alt="" className='w-8 rounded-full'/><span className='text-yellow-500 mx-2 italic'><strong>Ephraim Haruna<small className='block text-sm font-normal text-gray-500'>Director</small></strong></span></div>
     
      </div>
      </div>
